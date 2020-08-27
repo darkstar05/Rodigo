@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgy"
+    tools:context=".Choice">
+
+    <RadioGroup
+        android:id="@+id/irg"
+        android:layout_width="316dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="245dp"
+            android:layout_height="71dp"
+            android:fontFamily="@font/baloo_bhaina"
+            android:onClick="rbclick"
+            android:text="Citizens"
+            android:textColor="#3F51B5"
+            android:textSize="38sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:fontFamily="@font/baloo_bhaina"
+            android:onClick="rbclick"
+            android:text="Administrator"
+            android:textColor="#03A9F4"
+            android:textSize="38sp" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

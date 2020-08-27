@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "386052361982",
+    "firebase_url": "https://rodigo-6be95.firebaseio.com",
+    "project_id": "rodigo-6be95",
+    "storage_bucket": "rodigo-6be95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386052361982:android:cccb5b9811a74a44931faf",
+        "android_client_info": {
+          "package_name": "com.app.rodigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386052361982-tn2aj8nikehq7jhcpnpee9cnjolqfq4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.rodigo",
+            "certificate_hash": "a2f9dce1857b28e541e01eea423c75889b27906b"
+          }
+        },
+        {
+          "client_id": "386052361982-rka7lkokgncf8d58uhqai41hajfna0i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV9xRti361OZvcZHqMl90HYwccUEPstNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386052361982-rka7lkokgncf8d58uhqai41hajfna0i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
